@@ -34,7 +34,8 @@ npm run setup
 ```
 
 
-Add `solc = "0.8.20"` in the `foundry.toml` file to force Foundry to use the required Solidity compiler version `0.8.20`.
+Note: add a new line with `solc = "0.8.20"` in the `foundry.toml` file to force Foundry to use the required Solidity compiler version `0.8.20`.
+
 
 ### Features
 
