@@ -16,10 +16,12 @@ Furthermore:
 * Staker represents an ethereum address
 * It is assumed that there will be only two roles for stakers
 * Only admin role user can update contact configurations
-* Unit tests achieve 100% code coverage
+* Unit tests achieve very high code coverage
 
 
 ### Getting Started
+
+Install the required project dependencies.
 
  * Foundry: 
 ```bash
@@ -31,7 +33,15 @@ forge install
 npm run setup
 ```
 
+
+Add `solc = "0.8.20"` in the `foundry.toml` file to force Foundry to use the required Solidity compiler version `0.8.20`.
+
 ### Features
+
+ * Compile the smart contracts with Foundry:
+```bash
+forge build
+```
 
  * Run tests with Foundry:
 ```bash
@@ -45,4 +55,6 @@ npx hardhat run scripts/deploy.js --network <network>
 
 ### Notes
 
-Whenever you install new libraries using Foundry, make sure to update your `remappings.txt` file by running `forge remappings > remappings.txt`. This is required because we use `hardhat-preprocessor` and the `remappings.txt` file to allow Hardhat to resolve libraries you install with Foundry.
+Whenever you install new libraries using Foundry, make sure to update the `remappings.txt` file by running `forge remappings > remappings.txt`. 
+
+This is required because we use `hardhat-preprocessor` and the `remappings.txt` file to allow Hardhat to resolve libraries you install with Foundry.
