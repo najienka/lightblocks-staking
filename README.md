@@ -21,6 +21,8 @@ Furthermore:
 
 ### Getting Started
 
+Ensure that Foundry is installed on your machine. Please see the Foundry installation [guide](https://book.getfoundry.sh/getting-started/installation).
+
 Install the required project dependencies.
 
  * Foundry: 
