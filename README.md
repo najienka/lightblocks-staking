@@ -22,6 +22,8 @@ Furthermore:
 ### Getting Started
 
 Ensure that Foundry is installed on your machine. Please see the Foundry installation [guide](https://book.getfoundry.sh/getting-started/installation).
+Also, ensure you have installed npm and node following this [guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
 
 Install the required project dependencies.
 
