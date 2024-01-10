@@ -1,4 +1,4 @@
-# <h1 align="center"> Hardhat x Foundry Example Staking Smart Contract Project </h1>
+# <h1 align="center"> Hardhat and Foundry sample staking smart contract project </h1>
 
 **The repository demonstrates a staking smart contract which is upgradeable after initial deployment. The unit tests for the smart contract are written with Foundry**
 
